@@ -24,9 +24,11 @@ class Team
     puts (@player[position])
  end
 
- def to_s()
+ def to_s(positio)
   # output team name + players list
- end
+   for i in
+   puts @player[i].to_s + "-" + position
+   end
 end
 
 describe Team do
