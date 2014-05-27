@@ -18,8 +18,8 @@ class Team
  end
 
  def filter_by_position(position)
-  #return players in the given position
-
+    #return players in the given position
+    puts @player[position]
  end
 
  def to_s()
