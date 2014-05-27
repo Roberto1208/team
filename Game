@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 class Team
 
  def add_player(name, position)
