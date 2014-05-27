@@ -1,9 +1,12 @@
 class Team
 
  def add_player(name, position)
+      def add_player(name, position)
+      i = position
       for i in var
-      @player = 
+      @player[i] = name
       end
+ end
  end
  
  def remove_player(name)
