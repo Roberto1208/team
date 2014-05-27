@@ -10,7 +10,11 @@ class Team
  end
  
  def remove_player(name)
-  
+   for i in var
+      if @player[i] == name
+       @palyer.delete
+      end
+      end
  end
 
  def filter_by_position(position)
