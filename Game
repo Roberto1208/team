@@ -12,14 +12,14 @@ class Team
  def remove_player(name)
    for i in var
       if @player[i] == name
-       @palyer.delete
+       @player.delete
       end
       end
  end
 
  def filter_by_position(position)
     #return players in the given position
-    puts @player[position]
+    puts (@player[position])
  end
 
  def to_s()
